@@ -54,6 +54,16 @@ func runday14() {
 	fmt.Print(day14(s))
 }
 
+func day19(startTime []int, endTime []int, queryTime int) int {
+	count := 0
+	for i := range startTime {
+		if startTime[i] <= queryTime && endTime[i] >= queryTime {
+			count++
+		}
+	}
+	return count
+}
+
 func Run8() {
 	fmt.Println("start")
 	runday14()
