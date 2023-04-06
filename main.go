@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	leecode "leecode/2023/04/05"
+	"log"
+)
 
 func main() {
-	fmt.Println("hello world")
+	log.Println(leecode.Q2427(24, 12))
 }
