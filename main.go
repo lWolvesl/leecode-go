@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	log.Println(leecode.Q2427(24, 12))
+	log.Println(leecode.Q2427(25, 30))
 }
