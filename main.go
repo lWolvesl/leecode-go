@@ -1,7 +1,7 @@
 package main
 
 import (
-	leecode "leecode/2023/04/05"
+	leecode "leecode/2023/04"
 	"log"
 )
 

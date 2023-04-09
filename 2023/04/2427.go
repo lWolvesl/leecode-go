@@ -2,6 +2,7 @@ package leecode
 
 import "log"
 
+//05
 func Q2427(a int, b int) int {
 	count := 0
 	arr := make([]int, 3) //0 large 1 small 2 temp
